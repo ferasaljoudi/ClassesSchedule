@@ -20,14 +20,15 @@ In the FPGA board, we will be using:
 
 To display 4 different letters/numbers on the four 7-segment displays where the anode of each 7- segment is driven from four transistors which have common 3.3V, I used a multiplexing technique. I created a clock which will switch between each display at intervals of 0.0025 seconds, which is too fast for the human eye to discern. I produce the illusion that all four displays are lighting simultaneously. This allowed me to represent different letters/numbers on each display.
 
-Then I created a second clock which is for 3 seconds. When all 4 switches are OFF, this clock allows me to represent the pattern of the 4 LEDs on the right of the FPGA. Each LED is represented for 3 seconds and it highlights a class switch. Along with these LEDs, the 7 segment displays the name of the class for the corresponding led, and the 5 LEDs on the right will display the days that are occupied by the displayed class.
+Then I created a second clock which is for 3 seconds. When all 4 switches are OFF, this clock allows me to represent the pattern of the 4 LEDs on the right of the FPGA. Each LED is represented for 3 seconds and it highlights a class switch. Along with these LEDs, the 7 segment displays the name of the class for the corresponding led, and the 5 LEDs on the left will display the days that are occupied by the displayed class.
 
 Then I just used combinational logic (if, elsif, case) to determine the output (9 LEDs and 7 segment display) based on the input (4 switches and 5 buttons).
 
-### Here is a link to a YouTube video demonstrating the ClassesSchedule on the FPGA:
-- 
+### To view the YouTube video demonstrating the ClassesSchedule on the FPGA:
+- _<a href="https://www.youtube.com/watch?v=rJdZfiHNr7o" title="Watch a demonstration of the ClassesSchedule">Click Here</a>_
+
 
 ### Note:
 I only had to write the Enel384Project.vhd file. The Basys-3-Master.xdc is a general .xdc file for the Basys3, and it is essential to define the pins and constraints for the Basys3 FPGA board. To view the .xdc file on the Digilent website:
 
-Click <a href="https://digilent.com/reference/programmable-logic/basys-3/start" title="Basys 3 - Digilent Reference">HERE</a> then find the "Master XDC Files" link.
+Click _<a href="https://digilent.com/reference/programmable-logic/basys-3/start" title="Basys 3 - Digilent Reference">HERE</a>_ then find the "Master XDC Files" link.
