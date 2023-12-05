@@ -16,7 +16,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity Enel384Project is
     Port (
         -- 4 Switches for 4 classes
-        sw : in STD_LOGIC_VECTOR(7 downto 0);
+        sw : in STD_LOGIC_VECTOR(3 downto 0);
         -- 7 Segment Display
         seg : out STD_LOGIC_VECTOR (6 downto 0);
         -- Controlling each of the 4 7Segment display
