@@ -1,10 +1,10 @@
-<svg fill="none" width="600" height="60" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="600" height="56" xmlns="http://www.w3.org/2000/svg">
     <style>
       * {
         margin: 0;
     }
     h1 {
-        font-size: 3.5rem;
+        font-size: 3.4rem;
         font-weight: 800;
         font-family: "Open Sans", sans-serif;
         text-align: center;
@@ -20,6 +20,7 @@
         color: #8B4513;
         margin-top: 2px;
         margin-bottom: 1px;
+        animation: slideFromLeft 2s ease-out 0s 1;
     }
     h1 span:nth-child(1) em {
         margin-top: 26px;
@@ -28,11 +29,21 @@
     h1 span:nth-child(2) {
         color: #8B4513;
         margin-bottom: 2px;
+        animation: slideFromRight 2s ease-out 0s 1;
     }
     h1 span:nth-child(2) em {
         margin-top: -10px;
         margin-bottom: 12px;
         line-height: 1rem;
+    }
+
+    @keyframes slideFromLeft {
+        0%, 10% {transform: translateX(-100vw);}
+        100% {transform: translateX(0);}
+    }
+    @keyframes slideFromRight {
+        0%, 10% {transform: translateX(100vw);}
+        100% {transform: translateX(0);}
     }
     </style>
 

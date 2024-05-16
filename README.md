@@ -1,12 +1,13 @@
 <div style="width: 100%;">
     <a href="#"><img src="SVGs/header.svg" style="width: 100%"></a>
 </div>
-
+<br>
 This is an individual lab project for the ENEL384 class. The requirement of the project is to design a synchronous circuit of reasonable complexity ( >1 stage, <100 stages), which means that the project can not be composed solely of combinational logic.
 
 To design the chosen project (ClassesSchedule), I used VHSIC Hardware Description Language (VHDL), Vivado (a software for hardware description language designs) and the BASYS-3 FPGA 
 Board.
 
+<br>
 <div style="width: 100%;">
     <a href="#"><img src="SVGs/technologiesUsed.svg" style="width: 100%"></a>
 </div>
@@ -22,7 +23,7 @@ Board.
 <div style="width: 100%;">
     <a href="#"><img src="SVGs/description.svg" style="width: 100%"></a>
 </div>
-
+<br>
 
 In the FPGA board, I used:
 - Four Switches to turn ON or OFF the 4 classes/subjects.
@@ -42,11 +43,12 @@ Then I created a second clock which is for 3 seconds. When all 4 switches are OF
 
 Then I used combinational logic (if, elsif, case) to determine the output (9 LEDs and 7 segment display) based on the input (4 switches and 5 buttons).
 
+<br>
 <div style="width: 100%;">
     <a href="#"><img src="SVGs/resources.svg" style="width: 100%"></a>
 </div>
-
-### To view the YouTube video demonstrating the ClassesSchedule on the FPGA:
+<br>
+<b>To view the YouTube video demonstrating the ClassesSchedule on the FPGA:</b>
 - _<a href="https://www.youtube.com/watch?v=rJdZfiHNr7o" title="Watch a demonstration of the ClassesSchedule">Click Here</a>_
 
 
