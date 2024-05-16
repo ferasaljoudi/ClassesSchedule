@@ -1,17 +1,24 @@
-<!-- # ClassesSchedule -->
 <div style="width: 100%;">
-    <a href="#"><img src="SVGs/header.svg" style="width: 100%"><a>
+    <a href="#"><img src="SVGs/header.svg" style="width: 100%"></a>
 </div>
+
 This is an individual lab project for the ENEL384 class. The requirement of the project is to design a synchronous circuit of reasonable complexity ( >1 stage, <100 stages), which means that the project can not be composed solely of combinational logic.
 
 To design the chosen project (ClassesSchedule), I used VHSIC Hardware Description Language (VHDL), Vivado (a software for hardware description language designs) and the BASYS-3 FPGA 
 Board.
+
+<div style="width: 100%;">
+    <a href="#"><img src="SVGs/technologiesUsed.svg" style="width: 100%"></a>
+</div>
+
 <div align="center">
     <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/" title="VHDL"><img alt="Static Badge" src="https://img.shields.io/badge/VHDL-blue" alt="VHDL"></a>
 </div>
+<div style="width: 100%;">
+    <a href="#"><img src="SVGs/description.svg" style="width: 100%"></a>
+</div>
 
-Description of the classes schedule:
--
+
 In the FPGA board, we will be using:
 - Four Switches to turn ON or OFF the 4 classes/subjects.
 - Five buttons to select what do we want to display
