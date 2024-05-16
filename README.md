@@ -12,14 +12,19 @@ Board.
 </div>
 
 <div align="center">
-    <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/" title="VHDL"><img alt="Static Badge" src="https://img.shields.io/badge/VHDL-blue" alt="VHDL"></a>
+    <br>
+    <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/" title="VHDL"><img src="https://img.shields.io/badge/VHDL-red" alt="VHDL" style="width: 100px; height: 28px;"></a>
+    <a href="https://www.xilinx.com/products/design-tools/vivado.html" title="Vivado"><img src="https://img.shields.io/badge/Vivado-red" alt="Vivado" style="width: 100px; height: 28px;"></a>
+    <a href="https://digilent.com/reference/programmable-logic/basys-3/start" title="Basys 3" alt="Basys 3"><img src="https://img.shields.io/badge/Basys_3-red" alt="Basys 3" style="width: 100px; height: 28px;">
+    </a>
 </div>
+<br>
 <div style="width: 100%;">
     <a href="#"><img src="SVGs/description.svg" style="width: 100%"></a>
 </div>
 
 
-In the FPGA board, we will be using:
+In the FPGA board, I used:
 - Four Switches to turn ON or OFF the 4 classes/subjects.
 - Five buttons to select what do we want to display
     - Left button for class
@@ -35,7 +40,11 @@ To display 4 different letters/numbers on the four 7-segment displays where the 
 
 Then I created a second clock which is for 3 seconds. When all 4 switches are OFF, this clock allows me to represent the pattern of the 4 LEDs on the right of the FPGA. Each LED is represented for 3 seconds and it highlights a class switch. Along with these LEDs, the 7 segment displays the name of the class for the corresponding led, and the 5 LEDs on the left will display the days that are occupied by the displayed class.
 
-Then I just used combinational logic (if, elsif, case) to determine the output (9 LEDs and 7 segment display) based on the input (4 switches and 5 buttons).
+Then I used combinational logic (if, elsif, case) to determine the output (9 LEDs and 7 segment display) based on the input (4 switches and 5 buttons).
+
+<div style="width: 100%;">
+    <a href="#"><img src="SVGs/resources.svg" style="width: 100%"></a>
+</div>
 
 ### To view the YouTube video demonstrating the ClassesSchedule on the FPGA:
 - _<a href="https://www.youtube.com/watch?v=rJdZfiHNr7o" title="Watch a demonstration of the ClassesSchedule">Click Here</a>_
