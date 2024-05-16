@@ -49,6 +49,7 @@ Then I used combinational logic (if, elsif, case) to determine the output (9 LED
 </div>
 <br>
 <b>To view the YouTube video demonstrating the ClassesSchedule on the FPGA:</b>
+
 - _<a href="https://www.youtube.com/watch?v=rJdZfiHNr7o" title="Watch a demonstration of the ClassesSchedule">Click Here</a>_
 
 
