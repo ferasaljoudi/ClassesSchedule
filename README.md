@@ -13,9 +13,9 @@ Board.
 
 <div align="center">
     <br>
-    <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/" title="VHDL"><img src="https://img.shields.io/badge/VHDL-red" alt="VHDL" style="width: 100px; height: 28px;"></a>
-    <a href="https://www.xilinx.com/products/design-tools/vivado.html" title="Vivado"><img src="https://img.shields.io/badge/Vivado-red" alt="Vivado" style="width: 100px; height: 28px;"></a>
-    <a href="https://digilent.com/reference/programmable-logic/basys-3/start" title="Basys 3" alt="Basys 3"><img src="https://img.shields.io/badge/Basys_3-red" alt="Basys 3" style="width: 100px; height: 28px;">
+    <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/" title="VHDL" target="_blank"><img src="https://img.shields.io/badge/VHDL-red" alt="VHDL" style="width: 100px; height: 28px;"></a>
+    <a href="https://www.xilinx.com/products/design-tools/vivado.html" title="Vivado" target="_blank"><img src="https://img.shields.io/badge/Vivado-red" alt="Vivado" style="width: 100px; height: 28px;"></a>
+    <a href="https://digilent.com/reference/programmable-logic/basys-3/start" title="Basys 3" target="_blank"><img src="https://img.shields.io/badge/Basys_3-red" alt="Basys 3" style="width: 100px; height: 28px;">
     </a>
 </div>
 <br>
