@@ -3,7 +3,7 @@
 </div>
 <br>
 
-This is an individual lab project for the ENEL384 class. The requirement of the project is to design a synchronous circuit of reasonable complexity ( >1 stage, <100 stages), which means that the project can not be composed solely of combinational logic.
+This is an individual lab project for the ENEL384 class. The requirement of the project is to design a synchronous circuit of reasonable complexity ( > 1 stage, < 100 stages), which means that the project can not be composed solely of combinational logic.
 
 To design the chosen project (Class Schedules), I used VHSIC Hardware Description Language (VHDL), Vivado (a software for hardware description language designs) and the BASYS-3 FPGA 
 Board.
