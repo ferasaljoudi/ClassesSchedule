@@ -1,27 +1,30 @@
 <div style="width: 100%;">
-    <a href="#"><img src="SVGs/header.svg" style="width: 100%"></a>
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/SVGsHeader/classSchedules.svg" alt="Class Schedules" style="width: 100%"></a>
 </div>
 <br>
+
 This is an individual lab project for the ENEL384 class. The requirement of the project is to design a synchronous circuit of reasonable complexity ( >1 stage, <100 stages), which means that the project can not be composed solely of combinational logic.
 
-To design the chosen project (ClassesSchedule), I used VHSIC Hardware Description Language (VHDL), Vivado (a software for hardware description language designs) and the BASYS-3 FPGA 
+To design the chosen project (Class Schedules), I used VHSIC Hardware Description Language (VHDL), Vivado (a software for hardware description language designs) and the BASYS-3 FPGA 
 Board.
 
 <br>
 <div style="width: 100%;">
-    <a href="#"><img src="SVGs/technologiesUsed.svg" style="width: 100%"></a>
-</div>
-
-<div align="center">
-    <br>
-    <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/" title="VHDL" target="_blank"><img src="https://img.shields.io/badge/VHDL-red" alt="VHDL" style="width: 100px; height: 28px;"></a>
-    <a href="https://www.xilinx.com/products/design-tools/vivado.html" title="Vivado" target="_blank"><img src="https://img.shields.io/badge/Vivado-red" alt="Vivado" style="width: 100px; height: 28px;"></a>
-    <a href="https://digilent.com/reference/programmable-logic/basys-3/start" title="Basys 3" target="_blank"><img src="https://img.shields.io/badge/Basys_3-red" alt="Basys 3" style="width: 100px; height: 28px;">
-    </a>
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/technologiesUsed.svg" alt="Technologies Used" style="width: 100%"></a>
 </div>
 <br>
+
+<div align="center">
+
+[![VHDL](https://img.shields.io/badge/-VHDL-gray?style=for-the-badge&logoColor=white)](https://www.doulos.com/knowhow/vhdl/what-is-vhdl/)
+[![Basys-3](https://img.shields.io/badge/-Basys_3-150458?style=for-the-badge)](https://digilent.com/reference/programmable-logic/basys-3/start)
+[![Vivado](https://img.shields.io/badge/-Vivado-4D4D4D?style=for-the-badge&logo=xilinx&logoColor=white)](https://www.xilinx.com/products/design-tools/vivado.html)
+
+</div>
+
+<br>
 <div style="width: 100%;">
-    <a href="#"><img src="SVGs/description.svg" style="width: 100%"></a>
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/description.svg" alt="Description" style="width: 100%"></a>
 </div>
 <br>
 
@@ -45,9 +48,10 @@ Then I used combinational logic (if, elsif, case) to determine the output (9 LED
 
 <br>
 <div style="width: 100%;">
-    <a href="#"><img src="SVGs/resources.svg" style="width: 100%"></a>
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/resources.svg" alt="Resources" style="width: 100%"></a>
 </div>
 <br>
+
 <b>To view the YouTube video demonstrating the ClassesSchedule on the FPGA:</b>
 
 - _<a href="https://www.youtube.com/watch?v=rJdZfiHNr7o" title="Watch a demonstration of the ClassesSchedule">Click Here</a>_
