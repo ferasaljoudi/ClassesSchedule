@@ -15,7 +15,7 @@ Board.
 <br>
 
 <div align="center">
-    <a href="https://www.youtube.com/watch?v=rJdZfiHNr7o">
+    <a href="https://www.youtube.com/watch?v=rJdZfiHNr7o" target="_blank">
     <img src="DemoGif/classSchedules.gif" alt="Demo Gif">
     </a>
 </div>
