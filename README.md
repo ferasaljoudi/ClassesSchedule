@@ -10,6 +10,19 @@ Board.
 
 <br>
 <div style="width: 100%;">
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/demo.svg" alt="Demo" style="width: 100%"></a>
+</div>
+<br>
+
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=rJdZfiHNr7o">
+    <img src="DemoGif/classSchedules.gif" alt="Demo Gif">
+    </a>
+</div>
+
+
+<br>
+<div style="width: 100%;">
     <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/technologiesUsed.svg" alt="Technologies Used" style="width: 100%"></a>
 </div>
 <br>
