@@ -28,11 +28,18 @@ Board.
 <br>
 
 <div align="center">
-
-[![VHDL](https://img.shields.io/badge/-VHDL-gray?style=for-the-badge&logoColor=white)](https://www.doulos.com/knowhow/vhdl/what-is-vhdl/)
-<a href="https://digilent.com/reference/programmable-logic/basys-3/start"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/basys3.svg" alt="Basys-3"></a>
-<a href="https://www.xilinx.com/products/design-tools/vivado.html"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/vivado.svg" alt="Vivado"></a>
-
+<table>
+  <tr>
+    <td>
+        <br>
+        <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Languages/Right/vhdl.svg" alt="VHDL"></a>
+        <br>
+        <a href="https://www.xilinx.com/products/design-tools/vivado.html"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Middle/vivado.svg" alt="Vivado"></a>
+        <br>
+        <a href="https://digilent.com/reference/programmable-logic/basys-3/start"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Hardware/Middle/basys3.svg" alt="Basys3"></a>
+    </td>
+  </tr>
+</table>
 </div>
 
 <br>
