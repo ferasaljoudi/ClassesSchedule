@@ -31,7 +31,6 @@ Board.
 <table>
   <tr>
     <td>
-        <br>
         <a href="https://www.doulos.com/knowhow/vhdl/what-is-vhdl/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Languages/Right/vhdl.svg" alt="VHDL"></a>
         <br>
         <a href="https://www.xilinx.com/products/design-tools/vivado.html"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Middle/vivado.svg" alt="Vivado"></a>
